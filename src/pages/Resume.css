@@ -1,0 +1,48 @@
+.container{
+    padding: 20px;
+}
+.basicInfo{
+    display: flex;
+    height: 30%;
+}
+.headShot{
+    height: auto;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headShot>img{
+    height: 180px;
+    width: 180px;
+}
+.infos{
+    margin: 2px 5px;
+    height: auto;
+    width: 60%;
+}
+.infos>a{
+    text-decoration: none;
+    color: rgb(46, 139, 226);
+}
+.infos > h1{
+    
+    border-bottom: 1px solid rgb(160, 160, 160);
+}
+.contact>img{
+    height: 32px;
+    width: 32px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+}
+.section{
+    border: 2px solid rgb(26, 90, 187);
+    border-radius: 5px;
+    padding:1em 3em;
+    margin: 10px 0;
+}
+.skills{
+    color: rgba(192, 8, 8, 0.65);
+}
